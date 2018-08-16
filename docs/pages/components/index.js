@@ -76,6 +76,8 @@ export default function Components() {
         * \`clearValue\`
         * \`getStyles\`
         * \`getValue\`
+        * \`getFocusedValue\`,
+        * \`getFocusedOption\`,
         * \`hasValue\`
         * \`isMulti\`
         * \`isRtl\`

@@ -52,6 +52,8 @@ export default function Api() {
       clearValue: () => void,
       getStyles: (string, any) => {},
       getValue: () => ValueType,
+      getFocusedValue: () => OptionType | undefined,
+      getFocusedOption: () => OptionType | undefined,
       hasValue: boolean,
       isMulti: boolean,
       options: OptionsType,

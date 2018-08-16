@@ -49,6 +49,8 @@ export type CommonProps = {
   */
   getStyles: (string, any) => {},
   getValue: () => ValueType,
+  getFocusedValue: () => OptionType | undefined,
+  getFocusedOption: () => OptionType | undefined,
   hasValue: boolean,
   isMulti: boolean,
   options: OptionsType,
